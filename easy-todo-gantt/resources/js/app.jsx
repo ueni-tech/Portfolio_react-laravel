@@ -13,3 +13,14 @@ import './bootstrap';
  */
 
 import './components/Example';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './app.scss'
+import Home from './Home';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+      <Home />
+  </React.StrictMode>
+);
